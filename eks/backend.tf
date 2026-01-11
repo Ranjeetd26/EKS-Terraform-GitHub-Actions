@@ -10,7 +10,6 @@ terraform {
     bucket         = "dev-tf-backend-rd"
     region         = "ap-south-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "my-dynamodb"
     encrypt        = true
   }
 }
